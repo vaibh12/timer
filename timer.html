@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+
+  <!-- timer code -->
+
+  <div class="container">
+    <h1>Countdown to placements:</h1>
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+
+  <!-- todo code -->
+
+  <div class="todo">
+    <h2>TODO LIST</h2>
+    <h3>Add Item</h3>
+    <p>
+      <input id="new-task" type="text"><button>Add</button>
+    </p>
+
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label>bootsrap</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      <li><input type="checkbox"><label>javascript</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+    </ul>
+
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label>HTML,CSS</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="timer.js"></script>
+</body>
+</html>
